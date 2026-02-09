@@ -72,11 +72,11 @@ pinocchio_escrow/
 │   ├── state.rs        # 金库数据结构定义（定义「金库长什么样」）
 │   ├── errors.rs       # 错误类型与提示（全中文注释，新手排障参考）
 │   ├── instructions/   # 核心功能实现（按功能拆分，新手逐模块学习）
-│   │   ├── create.rs   # 创建金库 + 锁定资产
-│   │   ├── execute.rs  # 触发条件 + 划转资产
-│   │   ├── refund.rs   # 退款操作 + 关闭金库
-│   │   └── helper.rs   # 辅助工具（账户验证、数据初始化，新手可后看）
-│   └── constants.rs    # 常量定义（如 PDA 种子、代币精度等）
+│      ├── create.rs   # 创建金库 + 锁定资产
+│      ├── execute.rs  # 触发条件 + 划转资产
+│      ├── refund.rs   # 退款操作 + 关闭金库
+│   │  └── helper.rs   # 辅助工具（账户验证、数据初始化，新手可后看）
+│   
 ├── Cargo.toml          # 依赖配置（新手无需修改，按需添加依赖）
 └── README.md           # 本说明文档
 ```
