@@ -75,7 +75,7 @@ pinocchio_escrow/
 │      ├── create.rs   # 创建金库 + 锁定资产
 │      ├── execute.rs  # 触发条件 + 划转资产
 │      ├── refund.rs   # 退款操作 + 关闭金库
-│   │  └── helper.rs   # 辅助工具（账户验证、数据初始化，新手可后看）
+│      └── helper.rs   # 辅助工具（账户验证、数据初始化，新手可后看）
 │   
 ├── Cargo.toml          # 依赖配置（新手无需修改，按需添加依赖）
 └── README.md           # 本说明文档
