@@ -1,4 +1,4 @@
-# Blueshift Escrow 程序
+# Pinocchio Escrow 程序
 
 这是一个用 Rust 与 pinocchio 框架实现的 Solana 智能合约示例，实现了一个简单的代币托管/交换（Escrow）流程。
 
